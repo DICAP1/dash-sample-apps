@@ -795,14 +795,16 @@ app.layout = html.Div(
                     className="div-info",
                     children=[
                         html.Img(
-                            className="logo", src=app.get_asset_url("dash-logo-new.png")
+                            className="logo", src=app.get_asset_url("InvestIQ-logo.png")
                         ),
-                        html.H6(className="title-header", children="FOREX TRADER"),
+                        html.H6(className="title-header", children="INVESTIQ"),
                         html.P(
                             """
-                            This app continually queries csv files and updates Ask and Bid prices 
-                            for major currency pairs as well as Stock Charts. You can also virtually 
-                            buy and sell stocks and see the profit updates.
+                            InvestIQ is a fully automated trading solution which connects you to your favourite brokers 
+                            and updates Ask and Bid prices for major currency pairs, other asset classes, as well 
+                            as Stock Charts. You can see how your portfolio is performing, what are the sources of 
+                            your risk and return. In addition you will be able to dynamically hedge your portfolio to 
+                            manage your risks. You can also virtually  buy and sell stocks and see the profit updates.
                             """
                         ),
                     ],
